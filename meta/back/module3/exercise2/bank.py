@@ -27,7 +27,6 @@ class Swiss(Bank):
             self.balance = self.balance - amount
             print("Withdrawn amount: " + str(amount))
             print("New balance: " + str(self.balance))
-            #return self.balance
         else:
             print("Insufficient funds")
         return self.balance
